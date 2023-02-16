@@ -611,7 +611,7 @@ nav button:nth-child(2){
     display: flex;
     justify-content: center;
     margin: auto;
-    width:70%;
+    max-width:70%;
 }
 
 #exhibitors h2{
@@ -654,4 +654,126 @@ nav button:nth-child(2){
 .exhibitors__right__imgs div{
     border: 1px solid rgba(0,0,0,.5);
     margin: 2rem 1rem;
+}
+
+
+/* ----Newsletter_Section---- */
+
+
+#newsletter{
+    background-color: #ee3d29;
+}
+
+.newsletter__container{
+    display: flex;
+    max-width: 70%;
+    margin: auto;
+    justify-content: space-between;
+    position: relative;
+}
+
+.newsletter__left{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.newsletter__left h2{
+    font-size:4.5rem;
+    color: #f3f0fb;
+    font-weight:400;
+}
+
+.newsletter__left div{
+  background-color:#f3f0fb;
+   width:65.3rem;
+   border-radius:5px;
+   margin: 1.6rem 0;
+}
+
+.newsletter__left div input{
+    width:53rem;
+    border: none;
+    padding:1.2rem;
+    border-radius:5px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    outline: none;
+}
+
+.newsletter__left div button{
+    width:12rem;
+    border: none;
+    background-color: #171717;
+    color: #f3f0fb;
+    padding:1.2rem;
+    font-size:1.6rem;
+    border-top-right-radius: 4px;
+    border-top-right-radius: 4px;
+    cursor: pointer;
+}
+
+.newsletter__left p{
+    font-size:1.4rem;
+    max-width:61rem;
+}
+
+.newsletter__right{
+    margin:1rem 2rem;
+}
+
+.newsletter__right img{
+    max-width: 19rem;
+}
+
+
+/* ----Footer---- */
+
+.bottom-logo{
+    background-color: #171717;
+}
+
+.bottom-logo img{
+    width: 15rem;
+    margin:1rem 10rem;
+}
+
+.footer__container{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    padding:5rem 0;
+}
+
+.footer__container h2{
+    font-size:2rem;
+    color:#e9e9e9;
+    font-weight: 500;
+    margin:2rem 0;
+}
+
+.footer__container h3{
+    color:#c1c1c1;
+    font-weight: 300;
+    font-size:1.5rem;
+    margin:1rem 0;
+}
+
+.footer__container p{
+    font-weight: 300;
+    font-size:1.3rem;
+}
+
+.copyright{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #171717;
+}
+
+.copyright p{
+    padding: 2.2rem 0;
+    color:#c1c1c1;
+    font-weight: 500;
+    font-size:1.5rem;
 }
