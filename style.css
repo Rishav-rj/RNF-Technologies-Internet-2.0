@@ -74,6 +74,29 @@ nav button:nth-child(2){
 
 .nav__icon{
     margin-left:4rem;
+    cursor: pointer;
+}
+
+
+.hamburger-view{
+    display: none;
+    background-color:rgba(0,0,0,.6);
+    height: 74vh;
+    position: absolute;
+    width: 100%;
+    animation:menu .5s 0s 1 ease-in-out;
+    opacity:1;
+    transform: translateY(-10px);
+}
+@keyframes menu {
+    0%{
+        opacity: 0;
+        transform:translateY(200px);
+    }
+    100%{
+        opacity: 1;
+        transform:translateY(-10px);
+    }
 }
 
 
@@ -207,6 +230,7 @@ nav button:nth-child(2){
     font-weight:500;
     border-radius: 4px;
     border:none;
+    outline: none;
 }
 
 .hero__right form button{
@@ -610,7 +634,7 @@ nav button:nth-child(2){
 #exhibitors{
     display: flex;
     justify-content: center;
-    margin: auto;
+    margin:5rem auto;
     max-width:70%;
 }
 
@@ -631,7 +655,7 @@ nav button:nth-child(2){
 }
 
 .exhibitors__left{
-    margin-top:2.8rem;
+ 
 }
 
 .exhibitors__left p{
@@ -642,7 +666,7 @@ nav button:nth-child(2){
 }
 
 .exhibitors__right{
-    margin-top:5rem;
+    margin-top:2rem;
     display: flex;
     flex-direction: column;
 }
@@ -757,6 +781,7 @@ nav button:nth-child(2){
     font-weight: 300;
     font-size:1.5rem;
     margin:1rem 0;
+    cursor: pointer;
 }
 
 .footer__container p{
