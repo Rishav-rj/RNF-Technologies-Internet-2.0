@@ -1,9 +1,11 @@
 // -----Hamburger_Menu----
 
 const icon = document.querySelector(".nav__icon");
+const icon_mobile = document.querySelector(".nav__icon_mobile");
 const menu = document.querySelector(".hamburger-view");
 
 icon.addEventListener("click", showFullMenu);
+icon_mobile.addEventListener("click", showFullMenu);
 
 function showFullMenu() {
   if (menu.style.display === "none") {
